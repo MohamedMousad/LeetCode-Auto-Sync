@@ -6,7 +6,8 @@ This is a complete template repository to fully automate exporting your LeetCode
 
 ### 1. Repository Setup
 1. Fork this repository or create a new private repository and copy these files into it.
-2. The GitHub Action in `.github/workflows/sync.yml` is already configured!
+2. Create a folder named `.github/workflows` in your repository.
+3. Create a file named `sync.yml` inside that folder and copy the contents of the `sync-template.yml` file into it.
 
 ### 2. Chrome Extension Setup
 1. Generate a **GitHub Personal Access Token (Classic)** with `repo` and `workflow` permissions.
